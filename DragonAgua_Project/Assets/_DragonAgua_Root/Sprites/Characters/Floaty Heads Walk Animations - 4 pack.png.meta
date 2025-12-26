@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 7eea1df8b88a2f6418774c7de9698494
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2467709393878664486
+    second: Floaty Heads Walk Animations - 4 pack_0
+  - first:
+      213: -8031406596922965983
+    second: Floaty Heads Walk Animations - 4 pack_1
+  - first:
+      213: 16345760345629657
+    second: Floaty Heads Walk Animations - 4 pack_2
+  - first:
+      213: -5308728985912980666
+    second: Floaty Heads Walk Animations - 4 pack_3
+  - first:
+      213: -9064768390072901606
+    second: Floaty Heads Walk Animations - 4 pack_4
+  - first:
+      213: -591910359620605809
+    second: Floaty Heads Walk Animations - 4 pack_5
+  - first:
+      213: -4271475581423358133
+    second: Floaty Heads Walk Animations - 4 pack_6
+  - first:
+      213: -4505062866428614807
+    second: Floaty Heads Walk Animations - 4 pack_7
+  - first:
+      213: 314496080175891347
+    second: Floaty Heads Walk Animations - 4 pack_8
+  - first:
+      213: 4048755067105535882
+    second: Floaty Heads Walk Animations - 4 pack_9
+  - first:
+      213: 6690044144306490783
+    second: Floaty Heads Walk Animations - 4 pack_10
+  - first:
+      213: -6619868632513959051
+    second: Floaty Heads Walk Animations - 4 pack_11
+  - first:
+      213: 2511929226170545488
+    second: Floaty Heads Walk Animations - 4 pack_12
+  - first:
+      213: -1613567921531031354
+    second: Floaty Heads Walk Animations - 4 pack_13
+  - first:
+      213: -8441208205947667386
+    second: Floaty Heads Walk Animations - 4 pack_14
+  - first:
+      213: 6212028198631507700
+    second: Floaty Heads Walk Animations - 4 pack_15
+  - first:
+      213: 7995582833869675812
+    second: Floaty Heads Walk Animations - 4 pack_16
+  - first:
+      213: 554051225529251184
+    second: Floaty Heads Walk Animations - 4 pack_17
+  - first:
+      213: -6735853460642859327
+    second: Floaty Heads Walk Animations - 4 pack_18
+  - first:
+      213: -1361086232963579877
+    second: Floaty Heads Walk Animations - 4 pack_19
+  - first:
+      213: 7081071445167166748
+    second: Floaty Heads Walk Animations - 4 pack_20
+  - first:
+      213: 6277258728558432187
+    second: Floaty Heads Walk Animations - 4 pack_21
+  - first:
+      213: -538311008423535263
+    second: Floaty Heads Walk Animations - 4 pack_22
+  - first:
+      213: -8024250350398418706
+    second: Floaty Heads Walk Animations - 4 pack_23
+  - first:
+      213: 8676075496094762789
+    second: Floaty Heads Walk Animations - 4 pack_24
+  - first:
+      213: -407948010566880279
+    second: Floaty Heads Walk Animations - 4 pack_25
+  - first:
+      213: 1280007109059664107
+    second: Floaty Heads Walk Animations - 4 pack_26
+  - first:
+      213: 4687098310271832289
+    second: Floaty Heads Walk Animations - 4 pack_27
+  - first:
+      213: 6116471296244975212
+    second: Floaty Heads Walk Animations - 4 pack_28
+  - first:
+      213: -6580016358726641467
+    second: Floaty Heads Walk Animations - 4 pack_29
+  - first:
+      213: 459123584178778274
+    second: Floaty Heads Walk Animations - 4 pack_30
+  - first:
+      213: 8127751667688028184
+    second: Floaty Heads Walk Animations - 4 pack_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1089
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adab7f8716fe0cdd0800000000000000
+      internalID: -2467709393878664486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 959
+        width: 72
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1208da79046ba8090800000000000000
+      internalID: -8031406596922965983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_2
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1089
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d32cf6e1621a3000800000000000000
+      internalID: 16345760345629657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_3
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 959
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b46d93d1b9356b0800000000000000
+      internalID: -5308728985912980666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_4
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 1089
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10e38a2d29733280800000000000000
+      internalID: -9064768390072901606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_5
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 959
+        width: 72
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88a0fbf9ac19c7f0800000000000000
+      internalID: -591910359620605809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_6
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 1089
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f6186079ba8b4c0800000000000000
+      internalID: -4271475581423358133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_7
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 959
+        width: 72
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96728bb113dca71c0800000000000000
+      internalID: -4505062866428614807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 769
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3930326c4805d5400800000000000000
+      internalID: 314496080175891347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 639
+        width: 72
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8763654841103830800000000000000
+      internalID: 4048755067105535882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_10
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 769
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d021134bfc7dc50800000000000000
+      internalID: 6690044144306490783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_11
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 639
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b21436d808124a0800000000000000
+      internalID: -6619868632513959051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_12
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 769
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05531da825a2cd220800000000000000
+      internalID: 2511929226170545488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_13
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 639
+        width: 72
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c07d2046847b99e0800000000000000
+      internalID: -1613567921531031354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_14
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 769
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c70613cddcada80800000000000000
+      internalID: -8441208205947667386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_15
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 639
+        width: 72
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f60422ebbe853650800000000000000
+      internalID: 6212028198631507700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 449
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d5309993406fe60800000000000000
+      internalID: 7995582833869675812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_17
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 319
+        width: 72
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0757a0577a260b700800000000000000
+      internalID: 554051225529251184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_18
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 449
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6fb4337f07582a0800000000000000
+      internalID: -6735853460642859327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_19
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 319
+        width: 82
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10088f48437c1de0800000000000000
+      internalID: -1361086232963579877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_20
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 449
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15d95656f4054260800000000000000
+      internalID: 7081071445167166748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_21
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 319
+        width: 72
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf02f62e8d4d1750800000000000000
+      internalID: 6277258728558432187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_22
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 449
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d9b3c6df88788f0800000000000000
+      internalID: -538311008423535263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_23
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 319
+        width: 72
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0d2b312d224a090800000000000000
+      internalID: -8024250350398418706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 129
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527033522bc976870800000000000000
+      internalID: 8676075496094762789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_25
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 72
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3755f127da65af0800000000000000
+      internalID: -407948010566880279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_26
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 129
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8d9751faf73c110800000000000000
+      internalID: 1280007109059664107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_27
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 0
+        width: 82
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e01613741beb0140800000000000000
+      internalID: 4687098310271832289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_28
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 129
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c660e8bcc3212e450800000000000000
+      internalID: 6116471296244975212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_29
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 0
+        width: 72
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8d6d1fbf51fa4a0800000000000000
+      internalID: -6580016358726641467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_30
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 129
+        width: 102
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0fafe97722f5600800000000000000
+      internalID: 459123584178778274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Floaty Heads Walk Animations - 4 pack_31
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 0
+        width: 72
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818322f34139bc070800000000000000
+      internalID: 8127751667688028184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Floaty Heads Walk Animations - 4 pack_0: -2467709393878664486
+      Floaty Heads Walk Animations - 4 pack_1: -8031406596922965983
+      Floaty Heads Walk Animations - 4 pack_10: 6690044144306490783
+      Floaty Heads Walk Animations - 4 pack_11: -6619868632513959051
+      Floaty Heads Walk Animations - 4 pack_12: 2511929226170545488
+      Floaty Heads Walk Animations - 4 pack_13: -1613567921531031354
+      Floaty Heads Walk Animations - 4 pack_14: -8441208205947667386
+      Floaty Heads Walk Animations - 4 pack_15: 6212028198631507700
+      Floaty Heads Walk Animations - 4 pack_16: 7995582833869675812
+      Floaty Heads Walk Animations - 4 pack_17: 554051225529251184
+      Floaty Heads Walk Animations - 4 pack_18: -6735853460642859327
+      Floaty Heads Walk Animations - 4 pack_19: -1361086232963579877
+      Floaty Heads Walk Animations - 4 pack_2: 16345760345629657
+      Floaty Heads Walk Animations - 4 pack_20: 7081071445167166748
+      Floaty Heads Walk Animations - 4 pack_21: 6277258728558432187
+      Floaty Heads Walk Animations - 4 pack_22: -538311008423535263
+      Floaty Heads Walk Animations - 4 pack_23: -8024250350398418706
+      Floaty Heads Walk Animations - 4 pack_24: 8676075496094762789
+      Floaty Heads Walk Animations - 4 pack_25: -407948010566880279
+      Floaty Heads Walk Animations - 4 pack_26: 1280007109059664107
+      Floaty Heads Walk Animations - 4 pack_27: 4687098310271832289
+      Floaty Heads Walk Animations - 4 pack_28: 6116471296244975212
+      Floaty Heads Walk Animations - 4 pack_29: -6580016358726641467
+      Floaty Heads Walk Animations - 4 pack_3: -5308728985912980666
+      Floaty Heads Walk Animations - 4 pack_30: 459123584178778274
+      Floaty Heads Walk Animations - 4 pack_31: 8127751667688028184
+      Floaty Heads Walk Animations - 4 pack_4: -9064768390072901606
+      Floaty Heads Walk Animations - 4 pack_5: -591910359620605809
+      Floaty Heads Walk Animations - 4 pack_6: -4271475581423358133
+      Floaty Heads Walk Animations - 4 pack_7: -4505062866428614807
+      Floaty Heads Walk Animations - 4 pack_8: 314496080175891347
+      Floaty Heads Walk Animations - 4 pack_9: 4048755067105535882
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
