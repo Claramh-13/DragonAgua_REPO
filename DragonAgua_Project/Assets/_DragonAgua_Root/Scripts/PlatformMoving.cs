@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class MovePlatform : MonoBehaviour
 {
     [SerializeField] float speed; //velocidad de plataforma
     [SerializeField] int startingPoint;
