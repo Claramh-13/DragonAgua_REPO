@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
         playerRb = GetComponent<Rigidbody2D>(); //Autoreferenciar un componente propio
         anim = GetComponent<Animator>();
         input = GetComponent<PlayerInput>();
+
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -38,6 +39,7 @@ public class PlayerController : MonoBehaviour
         //Lógica de las animaciones
         AnimationManagement();
         if (moveInput.x > 0 && !isFacingRight) Flip();
+        if (moveInput.x < 0 && isFacingRight) Flip();
     }
 
     private void FixedUpdate()
@@ -56,6 +58,7 @@ public class PlayerController : MonoBehaviour
         Vector3 currentScale = transform.localScale; //Almacén temporal de la escala del objeto
         currentScale.x *= -1; //Invertir el valor en x
         transform.localScale = currentScale;
+
         isFacingRight = !isFacingRight;
     }
 
@@ -71,6 +74,8 @@ public class PlayerController : MonoBehaviour
         if (moveInput.x != 0) anim.SetBool("Run", true);
         else anim.SetBool("Run", false);
     }
+
+
     #region Input Methods
     public void OnMove(InputAction.CallbackContext context)
     {

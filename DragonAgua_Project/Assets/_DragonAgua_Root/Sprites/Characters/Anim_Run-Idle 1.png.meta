@@ -1,0 +1,665 @@
+fileFormatVersion: 2
+guid: 11d52bbae5c64024ba274e9375b4065a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7556727790940042875
+    second: Anim_Run-Idle 1_0
+  - first:
+      213: 354361710813942841
+    second: Anim_Run-Idle 1_1
+  - first:
+      213: 3288606197834152500
+    second: Anim_Run-Idle 1_2
+  - first:
+      213: 6211826651544667178
+    second: Anim_Run-Idle 1_3
+  - first:
+      213: -2817473334131678981
+    second: Anim_Run-Idle 1_4
+  - first:
+      213: -698604919630243882
+    second: Anim_Run-Idle 1_5
+  - first:
+      213: 5873859666797687109
+    second: Anim_Run-Idle 1_6
+  - first:
+      213: 6581763788150076980
+    second: Anim_Run-Idle 1_7
+  - first:
+      213: 3421204084409596789
+    second: Anim_Run-Idle 1_8
+  - first:
+      213: 3857382502465823146
+    second: Anim_Run-Idle 1_9
+  - first:
+      213: -5593302779471044135
+    second: Anim_Run-Idle 1_10
+  - first:
+      213: -4835933480981347422
+    second: Anim_Run-Idle 1_11
+  - first:
+      213: -6466940991828287611
+    second: Anim_Run-Idle 1_12
+  - first:
+      213: 5642274965732738134
+    second: Anim_Run-Idle 1_13
+  - first:
+      213: 8906928325592072197
+    second: Anim_Run-Idle 1_14
+  - first:
+      213: -5128110647239542324
+    second: Anim_Run-Idle 1_15
+  - first:
+      213: 8304305009709671543
+    second: Anim_Run-Idle 1_16
+  - first:
+      213: -3271184186417201566
+    second: Anim_Run-Idle 1_17
+  - first:
+      213: -9185371972342490868
+    second: Anim_Run-Idle 1_18
+  - first:
+      213: -222805034644522994
+    second: Anim_Run-Idle 1_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 8
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 432
+        width: 20
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b76bd4b73e3eed860800000000000000
+      internalID: 7556727790940042875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 432
+        width: 21
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93490173912fae400800000000000000
+      internalID: 354361710813942841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 432
+        width: 21
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a7d04c9e973ad20800000000000000
+      internalID: 3288606197834152500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 432
+        width: 21
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24cf9b8d67d43650800000000000000
+      internalID: 6211826651544667178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 432
+        width: 20
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf022f22ee256e8d0800000000000000
+      internalID: -2817473334131678981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_5
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 304
+        width: 20
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d75917e68e0e46f0800000000000000
+      internalID: -698604919630243882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 304
+        width: 20
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54178f3fe34248150800000000000000
+      internalID: 5873859666797687109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_7
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 304
+        width: 19
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436f63c2b4f175b50800000000000000
+      internalID: 6581763788150076980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_8
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 304
+        width: 20
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b795b0dfe8a7f20800000000000000
+      internalID: 3421204084409596789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_9
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 304
+        width: 20
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1684ed2fc288530800000000000000
+      internalID: 3857382502465823146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_10
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 176
+        width: 30
+        height: 37
+      alignment: 9
+      pivot: {x: 0.53, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d16c64b1c89062b0800000000000000
+      internalID: -5593302779471044135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 176
+        width: 28
+        height: 36
+      alignment: 9
+      pivot: {x: 0.52, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a340b4fe1053ecb0800000000000000
+      internalID: -4835933480981347422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_12
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 176
+        width: 26
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f99a66e6fc046a0800000000000000
+      internalID: -6466940991828287611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_13
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 176
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: 0.44, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6544491ff236d4e40800000000000000
+      internalID: 5642274965732738134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_14
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 179
+        width: 34
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500c7c60f14cb9b70800000000000000
+      internalID: 8906928325592072197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_15
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 48
+        width: 34
+        height: 37
+      alignment: 9
+      pivot: {x: 0.45, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc97366498a45d8b0800000000000000
+      internalID: -5128110647239542324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_16
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 48
+        width: 28
+        height: 35
+      alignment: 9
+      pivot: {x: 0.48, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774ed328861de3370800000000000000
+      internalID: 8304305009709671543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_17
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 48
+        width: 24
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e3abd505b6a92d0800000000000000
+      internalID: -3271184186417201566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_18
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 48
+        width: 31
+        height: 38
+      alignment: 9
+      pivot: {x: 0.52, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0952ba7bd0078080800000000000000
+      internalID: -9185371972342490868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Anim_Run-Idle 1_19
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 51
+        width: 31
+        height: 36
+      alignment: 9
+      pivot: {x: 0.52, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0838df500078ecf0800000000000000
+      internalID: -222805034644522994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ea54a515b380d5348ad567ce781acd4d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Anim_Run-Idle 1_0: 7556727790940042875
+      Anim_Run-Idle 1_1: 354361710813942841
+      Anim_Run-Idle 1_10: -5593302779471044135
+      Anim_Run-Idle 1_11: -4835933480981347422
+      Anim_Run-Idle 1_12: -6466940991828287611
+      Anim_Run-Idle 1_13: 5642274965732738134
+      Anim_Run-Idle 1_14: 8906928325592072197
+      Anim_Run-Idle 1_15: -5128110647239542324
+      Anim_Run-Idle 1_16: 8304305009709671543
+      Anim_Run-Idle 1_17: -3271184186417201566
+      Anim_Run-Idle 1_18: -9185371972342490868
+      Anim_Run-Idle 1_19: -222805034644522994
+      Anim_Run-Idle 1_2: 3288606197834152500
+      Anim_Run-Idle 1_3: 6211826651544667178
+      Anim_Run-Idle 1_4: -2817473334131678981
+      Anim_Run-Idle 1_5: -698604919630243882
+      Anim_Run-Idle 1_6: 5873859666797687109
+      Anim_Run-Idle 1_7: 6581763788150076980
+      Anim_Run-Idle 1_8: 3421204084409596789
+      Anim_Run-Idle 1_9: 3857382502465823146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
