@@ -16,7 +16,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Move_left",
+                    "name": "Move",
                     "type": "Button",
                     "id": "91729ba0-d9fa-4f32-97d0-3477a676d922",
                     "expectedControlType": "",
@@ -25,9 +25,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Move-right",
+                    "name": "Dash",
                     "type": "Button",
-                    "id": "d70a8e38-be73-4ed0-897f-3d4aa6aac0e1",
+                    "id": "086110ab-c1c0-456c-8218-927befac5219",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -64,7 +64,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move_left",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -75,29 +75,51 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move_left",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "2b446e5d-1b01-48f5-90b9-6dadd7fe8a26",
+                    "id": "21d8ff1c-ca0c-40d5-bb70-bd8f7674a7dd",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move-right",
+                    "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "2dd1dfd1-f9e0-4bf6-bc58-f0a0fa997eef",
+                    "id": "e9967d79-d9ed-4984-8918-843df2ebcbd0",
                     "path": "<Gamepad>/leftStick/right",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Move-right",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ebf1b7cd-d24a-4ac5-9fdd-f71038747e81",
+                    "path": "<Gamepad>/buttonWest",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7d1a726d-b976-4c45-8808-f2258d5f3e41",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Dash",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
