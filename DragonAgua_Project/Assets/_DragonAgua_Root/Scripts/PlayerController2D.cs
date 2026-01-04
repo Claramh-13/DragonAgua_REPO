@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] Transform groundCheck; //Posición del detector del suelo
     [SerializeField] float groundCheckRadius;
     [SerializeField] LayerMask groundLayer;
+    float fallMultiplier;
+    float lowJumpMultiplier;
 
     //Variables de referencia general
     Rigidbody2D playerRb;
@@ -40,6 +42,10 @@ public class PlayerController : MonoBehaviour
         AnimationManagement();
         if (moveInput.x > 0 && !isFacingRight) Flip();
         if (moveInput.x < 0 && isFacingRight) Flip();
+        if (playerRb.linearVelocity.y < 0)
+        {
+            playerRb.linearVelocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier + 2) * Time.deltaTime;
+        }
     }
 
     private void FixedUpdate()
