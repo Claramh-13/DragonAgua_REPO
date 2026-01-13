@@ -3,10 +3,6 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    //Decxlaración se música
-    public static AudioManager Instance;
-
-
     [Header("Audio Source references")]
     [SerializeField] AudioSource musicSource;
     [SerializeField] AudioSource sfxSource;
@@ -15,21 +11,36 @@ public class AudioManager : MonoBehaviour
     public AudioClip[] musicList;
     public AudioClip[] sfxList;
 
+    //Declaración de Singleton
+    private static AudioManager Instance;
+
+    public static AudioManager instance
+    {
+        get
+        {
+            if (instance == null) Debug.Log("No hay GameManager!");
+            return instance;
+        }
+    }
+
+
     private void Awake()
     {
         //Singletone que no se destruye entre escenas
-        if(Instance == null)
+        if(instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else
         {
+            //Si hay game manager, el duplicado se destruye
             Destroy(gameObject);
         }
 
     } 
     
+    //Fin del Sigleton
     public void PlayMusic(int musicIndex)
     {
        musicSource.clip = musicList[musicIndex];
@@ -41,5 +52,18 @@ public class AudioManager : MonoBehaviour
         sfxSource.PlayOneShot(sfxList[sfxIndex]);
     }
 
-    
+    public void StopMusic()
+    {
+        musicSource.Stop();
+
+    }
+    public void PauseMusic()
+    {
+        musicSource.Pause();
+    }
+
+    public void UnPauseMusic()
+    {
+        musicSource.UnPause();
+    }
 }
