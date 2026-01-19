@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
         else anim.SetBool("Run", false);
     }
 
- 
+     
     #region Input Methods
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -96,6 +96,6 @@ public class PlayerController : MonoBehaviour
         if (context.performed && isGrounded) anim.SetTrigger("Attack");
     }
 
-    
+     
     #endregion
 }
