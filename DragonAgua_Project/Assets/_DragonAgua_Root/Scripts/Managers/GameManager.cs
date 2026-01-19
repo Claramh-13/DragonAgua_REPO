@@ -41,6 +41,21 @@ using UnityEngine;
             if (playerHealth > 0) playerHealth = 0;
         }
 
+        public int coins = 0;
+        public bool dashUnlocked = false;
+      
+        public void AddCoin()
+        {
+           coins++;
+        
+           if(coins > 4 && !dashUnlocked)
+           {
+            dashUnlocked = true;
+            Debug.Log("Dash desbloaqueado!");
+           }
+
+        }
+    
 
 
 
