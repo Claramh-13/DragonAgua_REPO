@@ -19,8 +19,6 @@ public class MovePlatform : MonoBehaviour
        //Setear la posición inicial de la plataforma
        transform.position = points[startingPoint].position;
 
-
-
     }
 
     // Update is called once per frame
@@ -40,6 +38,31 @@ public class MovePlatform : MonoBehaviour
         //Mueve la plataforma a la posición que esta guardada en el array en el espacio con el valor igual a i
         transform.position = Vector2.MoveTowards(transform.position, points[i].position, speed * Time.deltaTime); 
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player"))
+        {
+            if (transform.position.y < collision.transform.position.y)
+            {
+                //El tranform del objeto se hace hijo de la plataforma
+                collision.transform.SetParent(transform);
+            }
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player"))
+        {
+            //el tranform del objeto tiene  que copmo padre NULL = ausencia de valor
+            collision.transform.SetParent(null);
+        }
+    }
+
+
+
+
+
 
 
 
