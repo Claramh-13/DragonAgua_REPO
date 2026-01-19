@@ -31,6 +31,8 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         isFacingRight = true;
+        fallMultiplier = 2.5f;
+        lowJumpMultiplier = 2f;
     }
 
     // Update is called once per frame
@@ -44,8 +46,9 @@ public class PlayerController : MonoBehaviour
         if (moveInput.x < 0 && isFacingRight) Flip();
         if (playerRb.linearVelocity.y < 0)
         {
-            playerRb.linearVelocity += Vector2.up * Physics2D.gravity.y * (fallMultiplier + 2) * Time.deltaTime;
+            playerRb.linearVelocity += Vector2.up * Physics2D.gravity.y * fallMultiplier * Time.deltaTime;
         }
+
     }
 
     private void FixedUpdate()
@@ -77,6 +80,8 @@ public class PlayerController : MonoBehaviour
     {
         //Acción para gestionar los cambios de animación
         anim.SetBool("Jump", !isGrounded);
+        anim.SetBool("OnGround", isGrounded);
+        anim.SetFloat("yVelocity", playerRb.linearVelocity.y);
         if (moveInput.x != 0) anim.SetBool("Run", true);
         else anim.SetBool("Run", false);
     }
