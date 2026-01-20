@@ -58,6 +58,7 @@ public class PlayerController : MonoBehaviour
 
     void Movement()
     {
+        AudioManager.instance.PlaySFX(0);
         //Mover el motor de aceleración del RigidBody
         playerRb.linearVelocity = new Vector2(moveInput.x * speed, playerRb.linearVelocity.y);
     }
@@ -73,6 +74,7 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
+        AudioManager.instance.PlaySFX(1);
         playerRb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
     }
 

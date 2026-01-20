@@ -2,6 +2,7 @@ using Unity.Hierarchy;
 using UnityEngine;
  public class GameManager : MonoBehaviour
  {
+        
         //Declaración del Singleton
         private static GameManager instance;
         public static GameManager Instance
@@ -18,7 +19,8 @@ using UnityEngine;
         //DECLARAMOS CUALQUIER VALOR GENERAL EN PUBLIC
         public float playerHealth;
         public float maxHealth = 100;
-        public int playerPoints;
+        public int playerPoints; 
+        
 
         private void Awake()
         {
@@ -41,7 +43,7 @@ using UnityEngine;
             if (playerHealth > 0) playerHealth = 0;
         }
 
-        public int coins = 0;
+        public int coins = 4;
         public bool dashUnlocked = false;
       
         public void AddCoin()

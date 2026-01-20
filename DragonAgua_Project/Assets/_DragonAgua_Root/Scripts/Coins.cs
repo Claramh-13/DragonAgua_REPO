@@ -4,10 +4,11 @@ public class Coins : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            Object.FindFirstObjectByType<GameManager>().AddCoin();
-            Destroy(gameObject);
+            AudioManager.instance.PlaySFX(2);
+            
+            gameObject.SetActive(false);
         }
 
     }
