@@ -43,7 +43,7 @@ public class AudioManager : MonoBehaviour
     //Fin del Sigleton
     public void PlayMusic(int musicIndex)
     {
-       musicSource.clip = musicList[musicIndex];
+        musicSource.clip = musicList[musicIndex];
         musicSource.Play(); 
     }
 
