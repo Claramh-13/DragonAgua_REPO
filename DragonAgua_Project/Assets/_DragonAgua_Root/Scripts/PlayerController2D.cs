@@ -86,7 +86,18 @@ public class PlayerController : MonoBehaviour
         else anim.SetBool("Run", false);
     }
 
-     
+    public int coins = 0;
+    public DashUnlockUI dashUI;
+
+    public void AddCoin()
+    {
+        coins++;    
+
+        if (coins == 4)
+        {
+            dashUI.ShowDashUnlocked();
+        }
+    }
     #region Input Methods
     public void OnMove(InputAction.CallbackContext context)
     {
