@@ -23,9 +23,14 @@ public class PlayerController : MonoBehaviour
     public float dashForce = 20f;
     public float dashDuration = 0.15f;
     public float dashCooldown = 1f;
+    
 
     bool isdashing = false;
-    float dashCooldownTimer = 0f;   
+    float dashCooldownTimer = 0f;
+
+    public int coins = 0;
+    public int coinsNeededForDash = 4;
+    public DashUnlockText dashUI;
 
     //Variables de referencia general
     Rigidbody2D playerRb;
@@ -143,7 +148,19 @@ public class PlayerController : MonoBehaviour
         isdashing = false;
     }
     
-   
+    public void AddCoin()
+    {
+        coins++;
+
+        if (coins >= coinsNeededForDash && !dashUnlocked)
+        {
+            UnlockDash();
+            
+
+        }
+
+    }
+
     #region Input Methods
     public void OnMove(InputAction.CallbackContext context)
     {
