@@ -9,52 +9,62 @@ using UnityEngine;
         {
             get
             {
-                if (instance == null) Debug.Log("No hay GameManager!");
+                if (instance == null) 
+                Debug.Log("No hay GameManager!");
                 return instance;
             }
 
         }
         //Fin del Singletone
 
-        //DECLARAMOS CUALQUIER VALOR GENERAL EN PUBLIC
+        //Variables del jugador
         public float playerHealth;
         public float maxHealth = 100;
-        public int playerPoints; 
-        
+        public int playerPoints;
+
+        //Sistema de Monedas y Dash
+        public int coins = 0;
+        public int coinsNeededForDash = 4;
+        public bool dashUnlocked = false;
 
         private void Awake()
         {
-            if (instance == null)
+            if ( instance == null)
             {
-                //Sino hay GameManager lo refeenciuamosy hacem os que perdure entre escenas
-                instance = this;
-                DontDestroyOnLoad(gameObject);
+               instance = this;
+               DontDestroyOnLoad(gameObject);
             }
-            else
+            else if (instance != this)
             {
-                //Si hay GameManager, el duplicado se destruye
-                Destroy(gameObject);
+               Destroy(gameObject);
             }
 
         }
 
         private void Update()
         {
-            if (playerHealth > 0) playerHealth = 0;
+           if (playerHealth < 0) playerHealth = 0;
         }
 
-        public int coins = 4;
-        public bool dashUnlocked = false;
+       
       
         public void AddCoin()
         {
            coins++;
-        
-           if(coins > 4 && !dashUnlocked)
+
+           Debug.Log("Coins");
+
+           if(coins >= coinsNeededForDash && !dashUnlocked)
            {
             dashUnlocked = true;
-            Debug.Log("Dash desbloaqueado!");
+
+            PlayerController.Instance.UnlockDash();
+            Debug.Log("Dash desbloqueado!");
+
+
            }
+
+       
 
         }
     
