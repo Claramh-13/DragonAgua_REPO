@@ -12,38 +12,31 @@ public class AudioManager : MonoBehaviour
     public AudioClip[] sfxList;
 
     //Declaración de Singleton
-    private static AudioManager Instance;
+    private static AudioManager _instance;
+    public static AudioManager instance => _instance;
+  
 
-    public static AudioManager instance
-    {
-        get
-        {
-            if (instance == null) Debug.Log("No hay GameManager!");
-            return instance;
-        }
-    }
-
-
-    private void Awake()
-    {
+     void Awake()
+     {
         //Singletone que no se destruye entre escenas
-        if(instance == null)
+        if(_instance == null)
         {
-            Instance = this;
+            _instance = this;
             DontDestroyOnLoad(gameObject);
         }
-        else
+        else if (_instance != this)
+
         {
             //Si hay game manager, el duplicado se destruye
             Destroy(gameObject);
         }
 
-    } 
+     } 
     
     //Fin del Sigleton
     public void PlayMusic(int musicIndex)
     {
-       musicSource.clip = musicList[musicIndex];
+        musicSource.clip = musicList[musicIndex];
         musicSource.Play(); 
     }
 

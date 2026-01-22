@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController Instance;
+
+
     [Header("Movement & Jump Configuration")]
     [SerializeField] float speed;
     [SerializeField] float jumpForce;
@@ -14,6 +17,21 @@ public class PlayerController : MonoBehaviour
     float fallMultiplier;
     float lowJumpMultiplier;
 
+    //dash
+    [Header("Dash Settings")]
+    public bool dashUnlocked = false;
+    public float dashForce = 20f;
+    public float dashDuration = 0.15f;
+    public float dashCooldown = 1f;
+    
+
+    bool isdashing = false;
+    float dashCooldownTimer = 0f;
+
+    public int coins = 0;
+    public int coinsNeededForDash = 4;
+    public DashUnlockText dashUI;
+
     //Variables de referencia general
     Rigidbody2D playerRb;
     Animator anim;
@@ -22,6 +40,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
         playerRb = GetComponent<Rigidbody2D>(); //Autoreferenciar un componente propio
         anim = GetComponent<Animator>();
         input = GetComponent<PlayerInput>();
@@ -38,8 +57,13 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Cooldown del dash
+        if (dashCooldownTimer > 0)
+            dashCooldownTimer -= Time.deltaTime;
+
         //Lógica de detección del suelo
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
         //Lógica de las animaciones
         AnimationManagement();
         if (moveInput.x > 0 && !isFacingRight) Flip();
@@ -53,11 +77,13 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if(!isdashing)
         Movement();
     }
 
     void Movement()
     {
+        
         //Mover el motor de aceleración del RigidBody
         playerRb.linearVelocity = new Vector2(moveInput.x * speed, playerRb.linearVelocity.y);
     }
@@ -73,6 +99,7 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
+        
         playerRb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
     }
 
@@ -86,7 +113,54 @@ public class PlayerController : MonoBehaviour
         else anim.SetBool("Run", false);
     }
 
-     
+    //Dash
+    public void UnlockDash()
+    {
+        dashUnlocked = true;
+        Debug.Log("Dash desbloqueado desde playerController");
+    }
+
+    void TryDash()
+    {
+        if (!dashUnlocked) return;
+        if (isdashing) return;
+        if (dashCooldownTimer > 0) return;
+
+        StartCoroutine(DoDash());
+
+    }
+
+    System.Collections.IEnumerator DoDash()
+    {
+        isdashing = true;
+        dashCooldownTimer = dashCooldown;
+
+        float originalGravity = playerRb.gravityScale;
+        playerRb.gravityScale = 0;
+
+        //Direccion del dash
+        float direction = isFacingRight ? 1 : -1;
+        playerRb.linearVelocity = new Vector2(direction * dashForce, 0);
+
+        yield return new WaitForSeconds(dashDuration);
+
+        playerRb.gravityScale = originalGravity;
+        isdashing = false;
+    }
+    
+    public void AddCoin()
+    {
+        coins++;
+
+        if (coins >= coinsNeededForDash && !dashUnlocked)
+        {
+            UnlockDash();
+            
+
+        }
+
+    }
+
     #region Input Methods
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -101,6 +175,9 @@ public class PlayerController : MonoBehaviour
         if (context.performed && isGrounded) anim.SetTrigger("Attack");
     }
 
-     
+    public void OnDash(InputAction.CallbackContext context)
+    {
+        if (context.performed) TryDash();
+    }
     #endregion
 }
