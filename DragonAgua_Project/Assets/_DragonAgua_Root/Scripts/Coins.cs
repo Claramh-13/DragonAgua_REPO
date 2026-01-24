@@ -4,7 +4,7 @@ public class Coins : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.CompareTag("Player"))
         {
             AudioManager.instance.PlaySFX(2);
             GameManager.Instance.AddCoin();
