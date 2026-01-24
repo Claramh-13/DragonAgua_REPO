@@ -109,6 +109,8 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("Jump", !isGrounded);
         anim.SetBool("OnGround", isGrounded);
         anim.SetFloat("yVelocity", playerRb.linearVelocity.y);
+        anim.SetBool("isDashing", isdashing);
+
         if (moveInput.x != 0) anim.SetBool("Run", true);
         else anim.SetBool("Run", false);
     }
