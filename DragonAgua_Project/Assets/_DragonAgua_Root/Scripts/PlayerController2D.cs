@@ -1,3 +1,5 @@
+using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -19,6 +21,7 @@ public class PlayerController : MonoBehaviour
     float lowJumpMultiplier;
     [Header("Scene Management")]
     public int sceneToLoad = 1;
+  
 
     //dash
     [Header("Dash Settings")]
@@ -26,7 +29,8 @@ public class PlayerController : MonoBehaviour
     public float dashForce = 20f;
     public float dashDuration = 0.15f;
     public float dashCooldown = 1f;
-    
+    public TMP_Text dashText;
+
 
     bool isdashing = false;
     float dashCooldownTimer = 0f;
@@ -123,6 +127,18 @@ public class PlayerController : MonoBehaviour
     {
         dashUnlocked = true;
         Debug.Log("Dash desbloqueado desde playerController");
+
+        StartCoroutine(ShowDashText());
+    }
+
+    private IEnumerator ShowDashText()
+    {
+        if(dashText != null)
+        {
+            dashText.gameObject.SetActive(true);
+            yield return new WaitForSeconds(5f);
+            dashText.gameObject.SetActive(false);
+        }
     }
 
     void TryDash()
