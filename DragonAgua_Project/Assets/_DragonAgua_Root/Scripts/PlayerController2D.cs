@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] LayerMask groundLayer;
     float fallMultiplier;
     float lowJumpMultiplier;
+    [Header("Scene Management")]
+    public int sceneToLoad = 1;
 
     //dash
     [Header("Dash Settings")]
@@ -161,6 +164,11 @@ public class PlayerController : MonoBehaviour
 
         }
 
+    }
+    
+    public void LoadScene()
+    {
+        SceneManager.LoadScene("SceneToLoad");
     }
 
     #region Input Methods
