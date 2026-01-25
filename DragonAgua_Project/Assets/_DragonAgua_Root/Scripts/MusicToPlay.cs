@@ -15,12 +15,8 @@ public class MusicTrigger : MonoBehaviour
     IEnumerator PlayDeLayed()
     {
         yield return null;
-        Debug.Log("Music Trigger: quiero reproducir musica" + musicToPlay);
-        if(AudioManager.instance == null)
-        {
-            Debug.LogError("No existe audio manager en esta escena");
-            yield break;
-        }
+        AudioManager.instance.PlayMusic(musicToPlay);
+       
     }
 
 
