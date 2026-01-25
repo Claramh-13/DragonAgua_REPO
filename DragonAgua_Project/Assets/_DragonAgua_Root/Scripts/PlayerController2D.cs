@@ -26,6 +26,12 @@ public class PlayerController : MonoBehaviour
     public float dashDuration = 0.15f;
     public float dashCooldown = 1f;
 
+    [Header("Attack")]
+    [SerializeField] private GameObject attackHitbox;
+    [SerializeField] private float attackDuration = 0.2f;
+
+
+
     bool isdashing = false;
     float dashCooldownTimer = 0f;
     
@@ -185,6 +191,8 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    
+
     #region Input Methods
     public void OnMove(InputAction.CallbackContext context)
     {
@@ -196,8 +204,19 @@ public class PlayerController : MonoBehaviour
     }
     public void OnAttack(InputAction.CallbackContext context)
     {
-        if (context.performed && isGrounded) anim.SetTrigger("Attack");
+        if (context.performed && isGrounded)
+        {
+            anim.SetTrigger("Attack");
+            StartCoroutine(AttackCoroutine());
+        }
     }
+    IEnumerator AttackCoroutine()
+    {
+        attackHitbox.SetActive(true);
+        yield return new WaitForSeconds(attackDuration);
+        attackHitbox.SetActive(false);
+    }
+
 
     public void OnDash(InputAction.CallbackContext context)
     {

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class DragonHealth : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 5;
     int currentHealth;
 
     void Start()
@@ -13,6 +13,7 @@ public class DragonHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        Debug.Log("Dragon HP: " + currentHealth);
 
         if (currentHealth <= 0)
         {
@@ -22,7 +23,6 @@ public class DragonHealth : MonoBehaviour
 
     void Die()
     {
-        
-        gameObject.SetActive(false);
+        Destroy(gameObject);
     }
 }
