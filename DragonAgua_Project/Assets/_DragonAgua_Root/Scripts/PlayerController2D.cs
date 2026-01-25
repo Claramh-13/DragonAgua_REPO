@@ -56,7 +56,8 @@ public class PlayerController : MonoBehaviour
         isFacingRight = true;
         fallMultiplier = 2.5f;
         lowJumpMultiplier = 2f;
-        
+
+        dashText.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -65,8 +66,7 @@ public class PlayerController : MonoBehaviour
         //Cooldown del dash
         if (dashCooldownTimer > 0)
             dashCooldownTimer -= Time.deltaTime;
-        dashText.gameObject.SetActive(false);
-
+        
         //Lógica de detección del suelo
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
