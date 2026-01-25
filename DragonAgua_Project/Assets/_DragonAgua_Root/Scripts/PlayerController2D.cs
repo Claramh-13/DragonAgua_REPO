@@ -1,5 +1,7 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -23,14 +25,16 @@ public class PlayerController : MonoBehaviour
     public float dashForce = 20f;
     public float dashDuration = 0.15f;
     public float dashCooldown = 1f;
-    
 
     bool isdashing = false;
     float dashCooldownTimer = 0f;
-
+    
+    //Coins
     public int coins = 0;
     public int coinsNeededForDash = 4;
-    public DashUnlockText dashUI;
+
+   
+    public TMP_Text dashText;
 
     //Variables de referencia general
     Rigidbody2D playerRb;
@@ -52,6 +56,7 @@ public class PlayerController : MonoBehaviour
         isFacingRight = true;
         fallMultiplier = 2.5f;
         lowJumpMultiplier = 2f;
+        
     }
 
     // Update is called once per frame
@@ -60,6 +65,7 @@ public class PlayerController : MonoBehaviour
         //Cooldown del dash
         if (dashCooldownTimer > 0)
             dashCooldownTimer -= Time.deltaTime;
+        dashText.gameObject.SetActive(false);
 
         //Lógica de detección del suelo
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
@@ -132,6 +138,18 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    public void ShowText()
+    {
+        StartCoroutine(Show());
+    }
+
+    IEnumerator Show()
+    {
+        dashText.gameObject.SetActive(true);
+        yield return new WaitForSeconds(5f);
+        dashText.gameObject.SetActive(false);   
+    }
+
     System.Collections.IEnumerator DoDash()
     {
         isdashing = true;
@@ -157,8 +175,12 @@ public class PlayerController : MonoBehaviour
         if (coins >= coinsNeededForDash && !dashUnlocked)
         {
             UnlockDash();
-            
+          
 
+            ShowText();
+
+            
+            
         }
 
     }
