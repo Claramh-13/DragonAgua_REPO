@@ -36,8 +36,20 @@ public class AudioManager : MonoBehaviour
     //Fin del Sigleton
     public void PlayMusic(int musicIndex)
     {
+        Debug.Log("Audiomanager: cambia musica + music index");
+
+        if (musicSource.clip == musicList[musicIndex])
+        {
+            Debug.Log("Audiomanager ya estaba sonando el clip");
+            return;
+        }
+           
+
+        musicSource.Stop();
         musicSource.clip = musicList[musicIndex];
-        musicSource.Play(); 
+        musicSource.Play();
+
+        Debug.Log("Audiomanager:nuevo clip =" + musicSource.clip.name);
     }
 
     public void PlaySFX(int sfxIndex)

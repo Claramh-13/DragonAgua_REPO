@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class MusicTrigger : MonoBehaviour
@@ -8,8 +9,24 @@ public class MusicTrigger : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        AudioManager.instance.PlayMusic(musicToPlay); 
+        StartCoroutine(PlayDeLayed()); 
     }
 
-    
+    IEnumerator PlayDeLayed()
+    {
+        yield return null;
+        Debug.Log("Music Trigger: quiero reproducir musica" + musicToPlay);
+        if(AudioManager.instance == null)
+        {
+            Debug.LogError("No existe audio manager en esta escena");
+            yield break;
+        }
+    }
+
+
+
+
+   
+
 }
+
