@@ -7,7 +7,7 @@ public class DashUnlockText : MonoBehaviour
     public GameObject text1;
     public GameObject text2;
 
-    public float displayTime = 2f;
+    public float displayTime = 5f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
